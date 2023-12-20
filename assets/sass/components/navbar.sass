@@ -1,0 +1,29 @@
+.navbar
+  padding: 20px 0
+
+  &__row
+    @include flex(row, space-between, center)
+
+  &__logo
+    @include font(600, 30px)
+
+
+
+.navbar-user
+  @include flex(row, flex-start, center)
+  gap: 10px
+
+  &__icon
+    width: 36px
+    height: 36px
+    background-color: $pr-color
+    border-radius: 50%
+
+  &__main
+
+  &__name
+    @include font(600, 16px)
+  
+
+  &__id
+    @include font(400, 14px, normal, $gray-2)

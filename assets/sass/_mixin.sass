@@ -1,0 +1,32 @@
+// font
+@mixin font($fw: 400, $fz: 16px, $lh: normal, $color: $pr-color)
+  font-weight: $fw
+  font-size: $fz
+  line-height: $lh
+  color: $color
+
+// flex
+@mixin flex($direction: row, $justify: flex-start, $align: stretch)
+  display: flex
+  flex-direction: $direction
+  justify-content: $justify
+  align-items: $align
+
+@mixin fit($fit)
+  width: 100%
+  height: 100%
+  object-fit: $fit
+
+
+// breakpoints
+$breakpoints: small 576px, medium 768px, large 992px, x-large 1200px
+
+// media with breakpoint name
+@mixin breakpoint($name)
+  @media (max-width: map-get($breakpoints, $name))
+    @content
+
+// media with breakpoint px
+@mixin media($breakpoint)
+  @media (max-width: $breakpoint)
+    @content

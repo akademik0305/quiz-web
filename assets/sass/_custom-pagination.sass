@@ -1,0 +1,23 @@
+.quizes-pagination
+  .swiper-pagination-bullet
+    white-space: nowrap
+    background-color: transparent
+    height: auto
+    width: auto
+    opacity: 1
+    margin: 0 !important
+    //@include font(500, 14px, normal, $gray-4)
+
+    &.swiper-pagination-bullet-active
+      color: #3b82f6
+      position: relative
+
+      &::after
+        content: ""
+        position: absolute
+        bottom: -5px
+        left: 50%
+        transform: translateX(-50%)
+        background-color: #3b82f6
+        width: 40px
+        height: 1px
