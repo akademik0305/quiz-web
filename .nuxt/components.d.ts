@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'AdminCategories': typeof import("../components/admin/categories.vue")['default']
     'Admin': typeof import("../components/admin/index")['default']
+    'AdminNavbar': typeof import("../components/admin/navbar.vue")['default']
     'AdminSidebar': typeof import("../components/admin/sidebar.vue")['default']
     'Game': typeof import("../components/game.vue")['default']
     'Navbar': typeof import("../components/navbar.vue")['default']
@@ -75,6 +76,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyAdminCategories': typeof import("../components/admin/categories.vue")['default']
     'LazyAdmin': typeof import("../components/admin/index")['default']
+    'LazyAdminNavbar': typeof import("../components/admin/navbar.vue")['default']
     'LazyAdminSidebar': typeof import("../components/admin/sidebar.vue")['default']
     'LazyGame': typeof import("../components/game.vue")['default']
     'LazyNavbar': typeof import("../components/navbar.vue")['default']
@@ -150,6 +152,7 @@ declare module 'vue' {
 
 export const AdminCategories: typeof import("../components/admin/categories.vue")['default']
 export const Admin: typeof import("../components/admin/index")['default']
+export const AdminNavbar: typeof import("../components/admin/navbar.vue")['default']
 export const AdminSidebar: typeof import("../components/admin/sidebar.vue")['default']
 export const Game: typeof import("../components/game.vue")['default']
 export const Navbar: typeof import("../components/navbar.vue")['default']
@@ -222,6 +225,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyAdminCategories: typeof import("../components/admin/categories.vue")['default']
 export const LazyAdmin: typeof import("../components/admin/index")['default']
+export const LazyAdminNavbar: typeof import("../components/admin/navbar.vue")['default']
 export const LazyAdminSidebar: typeof import("../components/admin/sidebar.vue")['default']
 export const LazyGame: typeof import("../components/game.vue")['default']
 export const LazyNavbar: typeof import("../components/navbar.vue")['default']
