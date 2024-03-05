@@ -1,14 +1,12 @@
 <template>
-  <div class="flex justify-start min-h-screen">
-    <!-- sidebar -->
+  <div class="flex justify-start h-screen">
     <div class="bg-orange-400 px-2 py-3">
       <sidebar></sidebar>
     </div>
-    <!-- sidebar -->
 
     <div class="p-5 flex-1">
       <!-- navbar -->
-      <navbar title="Sinflar" @openAddModal="openAddModal"></navbar>
+      <navbar title="Kategoriyalar" @openAddModal="openAddModal"></navbar>
       <!-- navbar -->
 
       <!-- classes table -->
@@ -29,10 +27,7 @@
         </UTable>
       </div>
       <!-- classes table -->
-
     </div>
-
-
 
     <!-- add and update class modal -->
     <div>
@@ -92,29 +87,15 @@ const columns = [{
 // table data
 const people = [{
   id: 1,
-  name: 'Lindsay Walton',
-  role: 'Member'
+  name: '2-sinf matematika',
 }, {
   id: 2,
   name: 'Courtney Henry',
-  role: 'Admin'
 }, {
   id: 3,
   name: 'Tom Cook',
-  role: 'Member'
-}, {
-  id: 4,
-  name: 'Whitney Francis',
-  role: 'Admin'
-}, {
-  id: 5,
-  name: 'Leonard Krasner',
-  role: 'Owner'
-}, {
-  id: 6,
-  name: 'Floyd Miles',
-  role: 'Member'
-}]
+}
+]
 
 // table item actions
 const items = (row) => [

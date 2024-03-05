@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/intelcomputers/Desktop/portfolio/quiz-web/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/akademik/Desktop/projects/quiz-web/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/Users/intelcomputers/Desktop/portfolio/quiz-web/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/akademik/Desktop/projects/quiz-web/node_modules/nuxt/dist/app/entry.js"
   }
 }
